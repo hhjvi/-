@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">毕业敬献</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="shortcut_created">快捷方式"毕业敬献"已创建。</string>
 
 </resources>
