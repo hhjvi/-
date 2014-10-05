@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <view
+        android:id="@+id/notepadjj_note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="org.yesterday17.notepadjj.EditActivity$LinedEditText"
+        android:background="@android:color/transparent"
+        android:capitalize="sentences"
+        android:fadingEdge="vertical"
+        android:gravity="top"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        android:textSize="22sp" />
+
+</LinearLayout>

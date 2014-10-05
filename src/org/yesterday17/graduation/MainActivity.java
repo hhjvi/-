@@ -12,7 +12,6 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -25,8 +24,8 @@ public class MainActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-
+		setContentView(R.layout.activity_main);	
+		
 		// ///////测试是否第一次运行/////////
 		SharedPreferences sharedPreferences = this.getSharedPreferences(
 				"share", MODE_PRIVATE);
