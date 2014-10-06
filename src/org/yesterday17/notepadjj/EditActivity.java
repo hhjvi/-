@@ -2,19 +2,16 @@ package org.yesterday17.notepadjj;
 
 import org.yesterday17.graduation.R;
 
-import android.R.color;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -89,33 +86,33 @@ public class EditActivity extends Activity {
 		}
 	}
 
-	
-	public void ChangeMode()
-	{
-		LinedEditText note = (LinedEditText)findViewById(R.id.notepadjj_note);
-		if(NightMode) {
-			NightMode=false;
-			note.setBackgroundColor(Color.WHITE);
-			note.setTextColor(Color.BLACK);
-		}
-		else{
+	public void ChangeMode() {
+		LinedEditText note = (LinedEditText) findViewById(R.id.notepadjj_note);
+		if (NightMode) {
+			NightMode = false;
+			note.setBackgroundColor(getResources().getColor(
+					R.color.night_mode_back));
+			note.setTextColor(getResources().getColor(R.color.night_mode_text));
+		} else {
 			NightMode = true;
-			note.setBackgroundColor(Color.BLACK);
-			note.setTextColor(Color.GRAY);
+			note.setBackgroundColor(getResources().getColor(
+					R.color.day_mode_back));
+			note.setTextColor(getResources().getColor(R.color.day_mode_text));
 		}
 	}
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.notepadjj_edit);
-		
-		if(getScreenBrightness(this) == 30)ChangeMode();
-		
-		/////////Test/////////
-		//30,47,102,255
-		//String x = String.valueOf(getScreenBrightness(this));
-		//Log.w("jhz", x);
+
+		if (getScreenBrightness(this) == 30)
+			ChangeMode();
+
+		// ///////Test/////////
+		// 30,47,102,255
+		// String x = String.valueOf(getScreenBrightness(this));
+		// Log.w("jhz", x);
 
 		Intent intent = getIntent();
 		if (intent.getData() != null) {

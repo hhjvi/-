@@ -3,6 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
+
     
+    <!-- android:textColor="@color/" -->
+    <TextView
+        android:id="@+id/notepadjj_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description_notepadjj"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </LinearLayout>
