@@ -25,7 +25,8 @@
 
 ————昨日的十七号         写于2014年10月4日
 
-<a hred="http://hi.baidu.com/yesterday17">昨日的十七号的百度空间</a>
+<a href="http://hi.baidu.com/yesterday17">昨日的十七号的百度空间</a>
+
 <img src="http://i0.hdslb.com/Wallpaper/sd-16x9.jpg" />
 
 
