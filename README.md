@@ -30,4 +30,34 @@
 <img src="http://yesterday17.github.io/Graduation_res/Readme/bilibili_img/sd-16x9.jpg" />
 
 
+
 下面是对于Commit的总结！（坑）
+
+1.Intital commit
+
+这个是代码仓库初始化的时候所提交的，不关某昨什么事……
+
+
+2.对简介的第一次修改
+
+加了一张图，一个链接，以及某昨的一段话……
+
+
+3.第一次创建工程
+
+使用Eclipse创建了工程！留念一下……
+
+
+4.Hello World调试成功！
+
+好像有图的，用真机Android4.2+完美运行！
+
+
+5.设置一下Android忽略的同步
+
+关于Android有许多东西可以不用sync那么我就喜闻乐见了……
+
+
+6.增加了关于快捷方式的内容
+
+RT，但是好像问题不少啊！
