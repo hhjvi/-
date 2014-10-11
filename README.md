@@ -27,7 +27,7 @@
 
 <a href="http://hi.baidu.com/yesterday17">昨日的十七号的百度空间</a>
 
-<img src="http://i0.hdslb.com/Wallpaper/sd-16x9.jpg" />
+<img src="http://yesterday17.github.io/Graduation_res/Readme/bilibili_img/sd-16x9.jpg" />
 
 
 下面是对于Commit的总结！（坑）
